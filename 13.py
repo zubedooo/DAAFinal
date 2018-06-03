@@ -13,7 +13,7 @@ def bf(adj_list,n,s):
     del(path[0])
     print(distance)
     for i in path:
-          print (s,"to",path.index(i)+1,":",i)
+          print (s,"--->",path.index(i)+1,":",i)
 def main():
     adj_list=[]
     n=int(input("enter the number of vertices"))
