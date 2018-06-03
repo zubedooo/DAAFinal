@@ -10,7 +10,7 @@ def takeInput():
             else:
                 ary[i][i]=0
         completed.append(0)
-    print("\n\nThe  list is:")
+    print("\n\nAdjacency matrix is:")
     for i in range (n):
         print("\n")
         for j in range(n):
