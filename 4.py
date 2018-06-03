@@ -1,3 +1,4 @@
+import time
 def bfs(s,ver) :
     visited=[0 for i in range(ver+1)]
     visited[s]=1
@@ -38,4 +39,7 @@ for i in range(ver+1):
 del a[0]
 print (a)
 x=int(input("enter the start vertex"))
+start=time.clock()
 bfs(x,ver)
+end=time.clock()
+print("The program ran for: ",end-start,"seconds")
